@@ -1,70 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dimy Teknologi Indonesia</title>
 </head>
 <body class="container">
 
     <!--- navigation bar--->
 
-    <nav class="topnav" id="dimyTopnav">
-        <img src="assets/img/Dimy New Logo 2021 Landscape-10.png" alt="Dimy Logo" class="dimy-logo">
+    <header class="header" id="dimyTopnav">
 
-
-        <label for="ham_menu" class="ham-menu-bar">
-            <button class="hamburger-button-style" onclick="showMobileNav()">
-                <i class="fa fa-bars"></i>
-            </button> <!--- USING THIS CLASS IS MANDATORY --->
-        </label>
-        <input type="checkbox" id="hamMenu" autocomplete="off">
-        <div class="navbar-menu">
-            <ul>
+        <img src="assets/img/Dimy New Logo 2021 Landscape-10.png" alt="Dimy Logo" class="logo">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><i class="fa fa-bars"></i></label>
+        <ul class="menu">
             <li><a href="#Home" class="home nav-menu">Home</a></li>
+            <li><a href="#index" class="indexes nav-menu">Index</a></li>
             <li><a href="#techStack" class="Tech nav-menu">Tech</a></li>
             <li><a href="#ourClients" class="ourClient nav-menu">Our Client</a></li>
-            <li> <a href="#careerOpportunity" class="carrerOpportunity nav-menu">Career</a></li>
+            <li><a href="#careerOpportunity" class="carrerOpportunity nav-menu">Career</a></li>
         </ul>
-        </div>
 
-        <div class="mobile-navbar-menu" id="mobileNavbar">
-            
-                <a href="#Home" class="home nav-menu">Home</a>
-                <a href="#techStack" class="Tech nav-menu">Tech</a>
-                <a href="#ourClients" class="ourClient nav-menu">Our Client</a>
-                <a href="#careerOpportunity" class="carrerOpportunity nav-menu">Career</a>
-        </div>
-    </nav>
-
-    <!--- header -->
-
-    <header id="headerSection" class="hero-banner background">
-        <div class="dimytech-header-logo">
-            <img src="assets/img/logo6-07.png" alt="program logo" class="program-img bounce-1">
-        </div>
-        
-        <div class="ask-us-form">
-            <form id="contactForm" class="contact-form" onsubmit="return validateForm()">
-                <h3 class="contact-us-title">Contact Us!</h3>
-                <label for="fname" class="label-name">Your name:</label>
-                <input type="text" id="fname" name="fname" placeholder="name" class="input-form">
-                <label for="femail" class="label-name">E-mail:</label>
-                <input type="text" id="femail" name="femail" placeholder="email" class="input-form">
-                <label for="fdropdown" class="label-name">Gender</label>
-                <select id="dropdown-gender" class="input-form">
-                    <option value="">Select</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="apache">AH-64 Apache</option>
-                </select>
-                <label for="ftextbox" class="label-name">Message:</label>
-                <textarea id="ftextbox" name="ftextbox" placeholder="Write something!" class="input-form"></textarea>
-                <input type="submit" id="formsubmit" value="Kirim" class="input-form">
-            </form>
-        </div>
     </header>
+
+    <!--- hero -->
+
+    <section id="heroSection" class="hero-banner background">
+
+        <div class="dimytech-header-logo">
+            <img src="assets/img/logo6-07.png" alt="program logo" class="program-img">
+        </div>
+
+        <div class="about-company">
+            <h1>" Solving Complex Challenges with Code "</h1>
+            <h2>" Your Digital Solutions Partner "</h2>
+         </div>
+
+    </section>
+
+    <!---- Index --->
+
+    <section class="index">
+        <div class="section-title">
+            <h3>Index</h3>
+        </div>
+        <div class="index-content">
+            <div class="index-list">
+                <h4>About Us</h4>
+                <p>Learn about dimy and find out our offers to our rescpected clients</p>
+            </div>
+            <div class="index-list">
+                <h4>Our Service</h4>
+                <p>Learn about how we could help your business with our software solution</p>
+            </div>
+           <div class="index-list">
+                <h4>Our Price</h4>
+                <p>Get the best price offer from us in accordance your need and benefit you got</p>
+           </div>
+        </div>
+
+    </section>
+
+    <!--- about us ---->
+
+    <section class="about-us">
+        <h3>About us</h3>
+        
+
+    </section>
 
     <!--- tech stack section --->
 
@@ -79,6 +88,7 @@
             <img src="assets/img/java-script.png" alt="javascript" class="lang-logo">
             <img src="assets/img/physics.png" alt="react" class="lang-logo">
             <img src="assets/img/web.png" alt="asp" class="lang-logo">
+            <img src="assets/img/NuxtJS_Logo.png" alt="nuxt" class="lang-logo">
         </div>
     </section>
 
@@ -156,4 +166,5 @@
     </footer>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>

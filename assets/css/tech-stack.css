@@ -1,0 +1,35 @@
+/* TECH STACK SECTION */
+
+.tech-stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .section-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tech-logos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-evenly;
+        grid-gap: 1rem;
+    }
+    .lang-logo {
+        width: 12rem;
+    }
+
+    @media only screen and (max-width:960px) {
+        .tech-logos {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .lang-logo {
+            width: 20pxx;
+        }
+    }

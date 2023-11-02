@@ -5,7 +5,7 @@
 
 .hero-banner {
     background-image:
-    linear-gradient(to right, rgb(226, 226, 226), rgba(9, 71, 122, 0.73)),
+    linear-gradient(to top, rgb(255, 255, 255), rgba(14, 42, 71, 0.73)),
     url(/assets/img/code-1839406_1920.jpg);
 }
 

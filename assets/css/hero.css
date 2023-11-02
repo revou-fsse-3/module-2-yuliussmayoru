@@ -1,0 +1,48 @@
+/* BAGIAN HEADER */
+.hero-banner {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.program-img {
+    width: 35rem;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+}
+
+.about-company {
+    padding: 2em;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ /* 48em = 768px */
+
+@media (min-width: 48em) {
+    .hero-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ask-us-form {
+        display: none;
+    }
+
+    .dimytech-header-logo {
+        display: flex;
+        justify-content: center;
+    
+      }
+
+    .program-img {
+        width: 400px;
+    }
+}

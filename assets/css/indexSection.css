@@ -1,0 +1,17 @@
+.index h3 {
+    border-bottom: solid 5px black;
+}
+
+.index-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+.index-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
