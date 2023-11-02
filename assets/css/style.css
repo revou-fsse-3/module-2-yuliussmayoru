@@ -1,0 +1,393 @@
+@import "background-svg.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    "navbar"
+    "header"
+    "section-a"
+    "section-b"
+    "section-c";
+
+    grid-template-rows: 60px 700px 500px 700px 500px;
+  }
+
+
+/* Basic styles for your navigation */
+.topnav {
+    grid-template-columns: navbar;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    align-items: center;
+    background-color:white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.dimy-logo {
+    width: 200px;
+    transition: .5s all ease;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 18px;
+    color: black;
+    transition: .5s all ease;
+}
+
+nav ul li a:hover {
+    color: white;
+     background-color: #0E2A47;
+}
+
+#hamMenu {
+    display: none;
+}
+
+.ham-menu-bar {
+    display: none;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.hamburger-button-style {
+    width: 45px;
+    height:45px;
+    border: none;
+    background-color: white;
+    font-size: 40px;
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.hamburger-button-style:hover {
+    color: white;
+    background-color: #0E2A47;
+}
+
+.mobile-navbar-menu {
+    z-index: 11;
+    display: none;
+}
+
+@media only screen and (max-width:960px) {
+    .ham-menu-bar {
+      display: block;
+      z-index: 10;
+      text-align: end;
+      transition: .5s all ease;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+    
+    .mobile-navbar-menu {
+        background-color: rgba(222, 220, 220, 0.7);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .mobile-navbar-menu > a {
+        font-size: 2rem;
+        color: #000000;
+        position: relative;
+    }
+
+    .mobile-navbar-menu > a::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 1rem;
+        width: 100%;
+        height: 100%;
+        background-color: #0E2A47;
+        transform: scaleX(0);
+        transition: all 1s ease-in-out;
+        content: '';
+        z-index: -1;
+    }
+
+    .mobile-navbar-menu > a:hover::after {
+        transform: scaleX(1);
+    }
+  }
+
+  /* BAGIAN HEADER */
+
+  .hero-banner {
+    grid-template-areas: header;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+
+  .dimytech-header-logo {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+
+  }
+
+  .program-img {
+    width: 500px; /* Adjust the width as needed */
+    max-width: 500px; /* Set a maximum width if necessary */
+
+}
+
+.ask-us-form {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+}
+
+.contact-form {
+    padding: 40px;
+    border-radius: 5%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-title{
+    font-size: 24px; /* Customize the heading size */
+    margin-bottom: 10px;
+}
+
+.label-name {
+    font-weight: bold; /* Make labels bold or style them as needed */
+}
+
+.input-form {
+    width: 400px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc; /* Customize border styles */
+    border-radius: 5px;
+}
+
+.ask-us-form input[type="submit"] {
+    background-color: #007bff; /* Customize the submit button background color */
+    color: #fff; /* Customize the text color */
+    cursor: pointer;
+}
+
+@media only screen and (max-width:960px) {
+    .hero-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ask-us-form {
+        display: none;
+    }
+
+    .dimytech-header-logo {
+        display: flex;
+        justify-content: center;
+    
+      }
+
+    .program-img {
+        width: 400px;
+    }
+}
+
+/* TECH STACK SECTION */
+
+.tech-stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .section-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tech-logos {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+    }
+    .lang-logo {
+        grid-template-areas: lang-logo;
+        width: 200px;
+    }
+
+    @media only screen and (max-width:960px) {
+        .tech-logos {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .lang-logo {
+            width: 50px;
+        }
+    }
+
+/* CLIENTS SECTION */
+
+    .our-clients {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .client-picture-lists {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .client-pic {
+        width: 30%;
+    }
+
+    .white-text {
+        color: #fff;
+    }
+
+    @media only screen and (max-width:960px) {
+        .our-clients {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .client-picture-lists {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .client-pic {
+            width: 300px;
+        }
+    }
+
+    /* CAREER SECTION */
+
+    .career-opportunity {
+        grid-template-areas: section-c;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .career-table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table.minimalistBlack {
+        border: 3px solid #000000;
+        width: 100%;
+        text-align: left;
+        border-collapse: collapse;
+        background-color: #fff;
+      }
+      table.minimalistBlack td, table.minimalistBlack th {
+        border: 1px solid #000000;
+        padding: 5px 4px;
+      }
+      table.minimalistBlack tbody td {
+        font-size: 20px;
+      }
+      table.minimalistBlack thead {
+        background: #CFCFCF;
+        background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+        background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+        background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+        border-bottom: 3px solid #000000;
+      }
+      table.minimalistBlack thead th {
+        font-size: 30px;
+        font-weight: bold;
+        color: #000000;
+        text-align: left;
+      }
+
+      @media only screen and (max-width:960px) {
+        .career-table {
+            display: none;
+        }
+
+        .footer-section {
+            padding: 50px;
+        }
+
+        .footer-section h3 {
+            font-size: 25px
+        }
+
+        .footer-section iframe {
+            width: 500px;
+        }
+
+    }
+
+    /* LOGO ANIMATION */
+
+    .program-img {
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        transform-origin: bottom;
+    }
+
+    .bounce-1 {
+        animation-name: bounce-1;
+        animation-timing-function: linear;
+    }
+
+    @keyframes bounce-1 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+        
+    }
