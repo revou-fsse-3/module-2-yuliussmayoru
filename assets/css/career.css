@@ -6,6 +6,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .contact-form {
@@ -20,4 +22,19 @@
 #contactForm label, input, select, textarea {
   padding: 0.5rem; 
   width: 25rem;
+  height: 3rem;
+}
+
+.form-input:hover {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
 }

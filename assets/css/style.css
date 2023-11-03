@@ -7,6 +7,7 @@
 @import "footer.css";
 @import "indexSection.css";
 @import "aboutUs.css";
+@import "responsivetablet.css";
 
 * {
     margin: 0;
@@ -28,5 +29,5 @@ p {
 
 .container {
     display: grid;
-    grid-template-rows: 50em 20em 30em 50em 90em;
+    grid-template-rows: auto;
   }

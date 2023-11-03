@@ -4,6 +4,8 @@
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   padding-top: 10rem;
+   padding-bottom: 10rem;
 }
 .program-img {
     width: 35rem;
@@ -23,26 +25,6 @@
     align-items: center;
 }
 
- /* 48em = 768px */
-
-@media (min-width: 48em) {
-    .hero-banner {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .ask-us-form {
-        display: none;
-    }
-
-    .dimytech-header-logo {
-        display: flex;
-        justify-content: center;
-    
-      }
-
-    .program-img {
-        width: 400px;
-    }
+.about-company h1, h2 {
+    text-shadow: 10px 10px #777474;
 }

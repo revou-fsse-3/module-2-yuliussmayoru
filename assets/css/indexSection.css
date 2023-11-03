@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .index h3 {

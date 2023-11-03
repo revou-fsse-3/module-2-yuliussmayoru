@@ -3,6 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.about-us-picture {
+    display: none;
 }
 
 .carousel {
@@ -14,7 +20,7 @@
 .carousel-inner {
     position: relative;
     overflow: hidden;
-    width: 40rem;
+    width: 43rem;
 }
 
 .carousel-open:checked + .carousel-item {

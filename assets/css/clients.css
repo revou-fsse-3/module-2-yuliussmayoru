@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .client-picture-lists {
@@ -14,17 +16,10 @@
 }
 
 .client-pic {
-    width: 40rem;
+    width: 45rem;
     padding: 1.5rem;
 }
 
 .white-text {
     color: #fff;
 }
-
-/* 48em = 768px */
-  
-@media (min-width: 48em) {
-    
-    }
-  }

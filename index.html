@@ -74,40 +74,45 @@
             <h3>About us</h3>
             <p>Check this slide and learn why us as your partner</p>
         </div>
-
-        <div class="carousel">
-            <div class="carousel-inner">
-                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-                <div class="carousel-item">
-                    <img src="assets/img/carousel-1.png">
+        <div class="about-us-content">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel-1.png">
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel-2.png">
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel-3.png">
+                    </div>
+                    <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                    <label for="carousel-2" class="carousel-control next control-1">›</label>
+                    <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                    <label for="carousel-3" class="carousel-control next control-2">›</label>
+                    <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                    <label for="carousel-1" class="carousel-control next control-3">›</label>
+                    <ol class="carousel-indicators">
+                        <li>
+                            <label for="carousel-1" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-2" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-3" class="carousel-bullet">•</label>
+                        </li>
+                    </ol>
                 </div>
-                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-                <div class="carousel-item">
-                    <img src="assets/img/carousel-2.png">
-                </div>
-                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-                <div class="carousel-item">
-                    <img src="assets/img/carousel-3.png">
-                </div>
-                <label for="carousel-3" class="carousel-control prev control-1">‹</label>
-                <label for="carousel-2" class="carousel-control next control-1">›</label>
-                <label for="carousel-1" class="carousel-control prev control-2">‹</label>
-                <label for="carousel-3" class="carousel-control next control-2">›</label>
-                <label for="carousel-2" class="carousel-control prev control-3">‹</label>
-                <label for="carousel-1" class="carousel-control next control-3">›</label>
-                <ol class="carousel-indicators">
-                    <li>
-                        <label for="carousel-1" class="carousel-bullet">•</label>
-                    </li>
-                    <li>
-                        <label for="carousel-2" class="carousel-bullet">•</label>
-                    </li>
-                    <li>
-                        <label for="carousel-3" class="carousel-bullet">•</label>
-                    </li>
-                </ol>
+            </div>
+            <div class="about-us-picture">
+                <img src="/assets/img/about_us.jpg" alt="about-us-icon" class="about-us-icon">
             </div>
         </div>
+        
     </section>
 
     <!--- tech stack section --->
@@ -182,8 +187,19 @@
     <!--- footer section --->
 
     <footer>
+        <div class="contact-list white-text">
+            <ul>
+                <li>Instagram: dimytechindo</li>
+                <li>Twitter: dimy99</li>
+                <li>email: dimy.teknologi@gmail.com</li>
+            </ul>
+        </div>
         <div class="footer-section white-text">
-            <img src="/assets/img/DimyHand.png" alt="logo-dimy">
+            <picture>
+                <source media="(min-width:48em)" srcset="assets/img/Dimy New Logo 2021 Landscape-10.png" class="footer-logo">
+                <source media="(min-width:62em )" srcset="assets/img/logo6-07.png" class="footer-logo">
+                <img src="/assets/img/DimyHand.png" alt="logo-dimy" class="footer-logo">
+            </picture>
             <h3 id="footer-title">where can you find us?</h3>
             <p>Address : Jl. Capricorn No.27A, Gumuruh, Kec. Batununggal, Kota Bandung, Jawa Barat 40275</p>
             <p>Phone number: +6285222803000</p>

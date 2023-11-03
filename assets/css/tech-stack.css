@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     }
 
     .section-title {
@@ -22,15 +24,4 @@
     }
     .lang-logo {
         width: 12rem;
-    }
-
-    @media only screen and (max-width:960px) {
-        .tech-logos {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .lang-logo {
-            width: 20pxx;
-        }
     }

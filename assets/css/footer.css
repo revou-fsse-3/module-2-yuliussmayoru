@@ -1,3 +1,19 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-list {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.contact-list li {
+    font-size: 2rem;
+}
+
 .footer-section {
     display: flex;
     flex-direction: column;
@@ -6,6 +22,18 @@
     padding: 2rem;
 }
 
-.footer img {
-    width: 1rem;
+.footer-logo {
+    width: 10rem;
+}
+
+.contact-list li:nth-child(1) {
+    list-style: url("/assets/img/Instagram_icon_20px.png");
+}
+
+.contact-list li:nth-child(2) {
+    list-style: url("/assets/img/twitter40px.png")
+}
+
+.contact-list li:nth-child(3) {
+    list-style: url("/assets/img/gmail40px.png")
 }
