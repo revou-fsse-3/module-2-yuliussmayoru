@@ -27,13 +27,13 @@ footer {
 }
 
 .contact-list li:nth-child(1) {
-    list-style: url("/assets/img/Instagram_icon_20px.png");
+    list-style: url("/assets/img/Instagram_icon_20px.webp");
 }
 
 .contact-list li:nth-child(2) {
-    list-style: url("/assets/img/twitter40px.png")
+    list-style: url("/assets/img/twitter40px.webp")
 }
 
 .contact-list li:nth-child(3) {
-    list-style: url("/assets/img/gmail40px.png")
+    list-style: url("/assets/img/gmail40px.webp")
 }

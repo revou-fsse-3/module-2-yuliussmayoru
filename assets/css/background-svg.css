@@ -6,10 +6,10 @@
 .hero-banner {
     background-image:
     linear-gradient(to top, rgb(255, 255, 255), rgba(14, 42, 71, 0.73)),
-    url("/assets/img/code-1839406_1920.jpg");
+    url("/assets/img/code-1839406_1920.webp");
 }
 
 footer{
-    background-image: url("/assets/img/footer-background.png");
+    background-image: url("/assets/img/footer-background.webp");
     background-size: cover;
 }
