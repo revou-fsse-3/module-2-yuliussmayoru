@@ -6,7 +6,7 @@
 @import "career.css";
 @import "footer.css";
 @import "indexSection.css";
-
+@import "aboutUs.css";
 
 * {
     margin: 0;
@@ -28,5 +28,5 @@ p {
 
 .container {
     display: grid;
-    grid-template-rows: 50em 20em 50em 50em 30em;
+    grid-template-rows: 50em 20em 30em 50em 90em;
   }

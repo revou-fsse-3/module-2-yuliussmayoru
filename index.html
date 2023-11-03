@@ -70,9 +70,44 @@
     <!--- about us ---->
 
     <section class="about-us">
-        <h3>About us</h3>
-        
+        <div class="section-title">
+            <h3>About us</h3>
+            <p>Check this slide and learn why us as your partner</p>
+        </div>
 
+        <div class="carousel">
+            <div class="carousel-inner">
+                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                <div class="carousel-item">
+                    <img src="assets/img/carousel-1.png">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="assets/img/carousel-2.png">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="assets/img/carousel-3.png">
+                </div>
+                <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                <label for="carousel-2" class="carousel-control next control-1">›</label>
+                <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                <label for="carousel-3" class="carousel-control next control-2">›</label>
+                <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                <label for="carousel-1" class="carousel-control next control-3">›</label>
+                <ol class="carousel-indicators">
+                    <li>
+                        <label for="carousel-1" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-2" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-3" class="carousel-bullet">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
     </section>
 
     <!--- tech stack section --->
@@ -95,14 +130,17 @@
     <!--- our clients section --->
 
     <section class="our-clients" id="ourClients">
-        <div class="section-title white-text">
+        <div class="section-title">
             <h3 id="our-clients-title">Our Clients!</h3>
             <p>here is some list of our clients!</p>
         </div>
         <div class="client-picture-lists">
             <img src="assets/img/jayadi.png" alt="jayadi" class="client-pic">
+            <p>Sistem Informasi Planning dan Produksi Contro Jaya Abadi</p>
             <img src="assets/img/pertiwi.png" alt="pertiwi" class="client-pic">
+            <p>Sistem pengelolaan jual beli Gas terintregasi Pertamina</p>
             <img src="assets/img/pos.png" alt="pos" class="client-pic">
+            <p>Product Point of Sales</p>
         </div>
     </section>
     
@@ -112,52 +150,40 @@
         <div class="section-title">
             <h3 id="carrer-opportunity-title">Join Us!</h3>
             <p>currently we are looking for talent to join us!</p>
+            <p>fill the form below, and send us your CV</p>
         </div>
-        <div class="career-table">
-            <table class="minimalistBlack">
-                <tbody>
-                    <thead>
-                        <tr>
-                            <th>No</th>
-                            <th>Job</th>
-                            <th>Description</th>
-                            <th>Requirement</th>
-                        </tr>
-                    </thead>
-                    <tr>
-                        <td>1</td>
-                        <td>Laravel + React Programmer</td>
-                        <td>ability to build a web base system using react as front end, and laravel as it's backend</td>
-                        <td>3+ years experience in field</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Vue Programmer</td>
-                        <td>ability to build a frontend using Nuxt.js</td>
-                        <td>1+ years experience in field</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Project Manager</td>
-                        <td>ability to Manage a Project</td>
-                        <td>3+ years experience in field</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>System Analyst</td>
-                        <td>know how to create a document and analize a project</td>
-                        <td>3+ years experience in field</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p class="background-white">if you think you are, fulfill the requirements, you may contact us at : dimy.teknologi@gmail.com</p>
-        </div>            
+        <div class="form-input">
+            <form id="contactForm" class="contact-form" onsubmit="return validateForm()">
+                <h3 class="contact-us-title">Contact Us!</h3>
+                <label for="fname" class="label-name">Your name:</label>
+                <input type="text" id="fname" name="fname" placeholder="name" class="input-form">
+                <label for="femail" class="label-name">E-mail:</label>
+                <input type="text" id="femail" name="femail" placeholder="email" class="input-form">
+                <label for="frange" class="label-name">In Range, select how much you intersted work with us?</label>
+                <input type="range" name="frange" min="10" max="100" value="50">
+                <label for="fdropdown" class="label-name">Gender</label>
+                <select id="dropdown-gender" class="input-form">
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="apache">AH-64 Apache</option>
+                </select>
+                <label for="fdate">Select your interview date :</label>
+                <input type="date" name="fdate" id="interviewDate">
+                <label for="ftextbox" class="label-name">Message:</label>
+                <textarea id="ftextbox" name="ftextbox" placeholder="Write something!" class="input-form"></textarea>
+                <label for="fflileupload" class="label-name">Upload your CV:</label>
+                <input type="file" name="fflileupload" id="fileUpload" accept=".pdf, .docs">
+                <input type="submit" id="formsubmit" value="Kirim" class="input-form">
+            </form>
+        </div>     
     </section>
     
     <!--- footer section --->
 
     <footer>
         <div class="footer-section white-text">
+            <img src="/assets/img/DimyHand.png" alt="logo-dimy">
             <h3 id="footer-title">where can you find us?</h3>
             <p>Address : Jl. Capricorn No.27A, Gumuruh, Kec. Batununggal, Kota Bandung, Jawa Barat 40275</p>
             <p>Phone number: +6285222803000</p>

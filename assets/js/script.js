@@ -26,18 +26,3 @@ const validateForm = ()=> {
     alert("Message Sent!");
     return true; // Allow form submission
 }
-
-var x = document.getElementById("mobileNavbar");
-function showMobileNav() {
-    if (window.innerWidth <= 960) {
-        if (x.style.display === "none" || x.style.display === "") {
-            x.style.display = "flex";
-        } else {
-            x.style.display = "none";
-        }
-    }
-}
-
-x.addEventListener('click',()=> {
-    x.style.display = "none";
-})

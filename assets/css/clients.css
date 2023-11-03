@@ -8,31 +8,23 @@
 
 .client-picture-lists {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .client-pic {
-    width: 30%;
+    width: 40rem;
+    padding: 1.5rem;
 }
 
 .white-text {
     color: #fff;
 }
 
-@media only screen and (max-width:960px) {
-    .our-clients {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .client-picture-lists {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+/* 48em = 768px */
+  
+@media (min-width: 48em) {
     
-    .client-pic {
-        width: 300px;
     }
-}
+  }

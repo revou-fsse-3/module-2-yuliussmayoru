@@ -6,11 +6,11 @@
 .hero-banner {
     background-image:
     linear-gradient(to top, rgb(255, 255, 255), rgba(14, 42, 71, 0.73)),
-    url(/assets/img/code-1839406_1920.jpg);
+    url("/assets/img/code-1839406_1920.jpg");
 }
 
-footer,
-.our-clients {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='auto' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M -429.07026635847365%2c460 C -333.07%2c379.6 -141.07%2c52.8 50.929733641526376%2c58 C 242.93%2c63.2 338.93%2c476.4 530.9297336415264%2c486 C 722.93%2c495.6 818.93%2c113.4 1010.9297336415264%2c106 C 1202.93%2c98.6 1405.12%2c444.4 1490.9297336415264%2c449 C 1576.74%2c453.6 1450.19%2c193 1440%2c129' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -164.3378466923516%2c179 C -68.34%2c244 123.66%2c516.2 315.6621533076484%2c504 C 507.66%2c491.8 603.66%2c149.8 795.6621533076484%2c118 C 987.66%2c86.2 1083.66%2c335.4 1275.6621533076484%2c345 C 1467.66%2c354.6 1722.79%2c151.4 1755.6621533076484%2c166 C 1788.53%2c180.6 1503.13%2c367.6 1440%2c418' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -561.2826776580738%2c459 C -465.28%2c394.2 -273.28%2c126.6 -81.28267765807382%2c135 C 110.72%2c143.4 206.72%2c500.4 398.7173223419262%2c501 C 590.72%2c501.6 686.72%2c160.6 878.7173223419262%2c138 C 1070.72%2c115.4 1246.46%2c396.4 1358.717322341926%2c388 C 1470.97%2c379.6 1423.74%2c154.4 1440%2c96' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -41.31293164439387%2c411 C 54.69%2c343.2 246.69%2c80.8 438.68706835560613%2c72 C 630.69%2c63.2 726.69%2c340.6 918.6870683556061%2c367 C 1110.69%2c393.4 1206.69%2c214.2 1398.6870683556062%2c204 C 1590.69%2c193.8 1870.42%2c340.6 1878.6870683556062%2c316 C 1886.95%2c291.4 1527.74%2c128 1440%2c81' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+footer{
+    background-image: url("/assets/img/footer-background.png");
+    background-size: cover;
    
 }
