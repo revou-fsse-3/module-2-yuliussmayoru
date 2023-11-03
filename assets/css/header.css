@@ -4,6 +4,12 @@
   }
   
   /* header */
+
+  @font-face {
+    font-family: 'Font-montserrat';
+    src: 
+        url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
+  }
   
   .header {
     grid-template-areas: header;
@@ -23,6 +29,7 @@
   }
   
   .header li a {
+    font-family: 'Font-montserrat';
     display: block;
     padding: 20px 20px;
     font-size: 1.2rem;
