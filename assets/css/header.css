@@ -5,12 +5,6 @@
   }
   
   /* header */
-
-  @font-face {
-    font-family: 'Font-montserrat';
-    src: 
-        url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
-  }
   
   .header {
     grid-template-areas: header;
@@ -31,11 +25,13 @@
   
   .header li a {
     font-family: 'Font-montserrat';
+    font-weight: 800;
     display: block;
-    padding: 20px 20px;
+    padding: 10px 10px;
     font-size: 1.2rem;
     border-right: 1px solid #f4f4f4;
     text-decoration: none;
+    text-align: center;
   }
   
   .header li a:hover,
@@ -57,7 +53,7 @@
     position: relative;
     user-select: none;
     font-size: 30px;
-    width: 15rem;
+    width: 10rem;
   }
   /* menu */
   
@@ -76,7 +72,7 @@
     padding: 15px 15px;
     position: relative;
     user-select: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   
   .header .menu-icon .navicon {

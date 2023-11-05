@@ -3,15 +3,17 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 }
 
 .contact-list {
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 }
 
 .contact-list li {
-    font-size: 2rem;
+    font-size: 1rem;
+    color: white;
 }
 
 .footer-section {
@@ -23,7 +25,28 @@ footer {
 }
 
 .footer-logo {
-    width: 10rem;
+    width: 5rem;
+    padding-bottom: 2rem;
+}
+
+.footer-section {
+    color: white;
+    text-align: center;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    border-bottom: solid white;
+}
+
+.footer-section p {
+    padding-top: 1rem;
+    width: 80vw;
+}
+
+.footer-section iframe {
+    padding-top: 2rem;
+    width: 80vw;
 }
 
 .contact-list li:nth-child(1) {

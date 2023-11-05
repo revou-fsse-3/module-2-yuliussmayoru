@@ -1,38 +1,128 @@
-/* 48em = 768px */
-  
 /* navigation bar */
 
-@media (min-width: 48em) {
+@media (min-width: 429px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 15rem;
+    }
+
     .header li {
       float: left;
     }
     .header li a {
-      padding: 2rem 2rem;
-      font-size: 1.3rem;
+      padding: 1rem 1rem;
+      font-size: 1.2rem;
       font-weight: 1000;
     }
     .header .menu {
       clear: none;
-      float: right;
       max-height: none;
     }
     .header .menu-icon {
       display: none;
     }
 
+    /* hero */
+
+    .hero-banner {
+        background-size: cover;
+        padding-top: 15rem;
+    }
+
+    .program-img {
+        width: 30rem;
+    }
+
+    .about-company h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-company h2 {
+        font-size: 1.2rem;
+    }
+
+    /* index */
+
+    .index-content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 1rem;
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 1rem;
+    }
+
+    .tablet-logo {
+        display: flex;
+    }
+
+    .index-list {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .index-list.item-2 {
+        grid-row-start: 2;
+        grid-column-start: 2;
+    }
+
+    .index-list.item-3 {
+        grid-row-start: 3;
+        grid-column-start: 3;
+    }
+
+    .index-list.item-4 {
+        grid-row-start: 4;
+        grid-column-start: 4;
+    }
+
+    .programmer-girl {
+        width: 9rem;
+    }
+
+    .index-list.item-5 {
+       grid-column: 1;
+       grid-row: 4;
+    }
+
+    .renchon {
+        width: 8rem;
+    }
+
+    .programmer-language {
+        width: 9.7rem;
+    }
+
     /* about us */
 
+    .about-us {
+        width: 100vw;
+    }
+
     .carousel-inner {
-        width: 55rem;
+        width: 49rem;
     }
 
     /* tech stack */
 
     .tech-logos {
-        padding-top: 4rem;
-        display: flex;
-        flex-wrap: wrap;
+       display: grid;
+       grid-template-columns: repeat(6, 1fr);
+       grid-template-rows: repeat(2, 1fr);
+       column-gap: 1rem;
     }
+
+    #techStack.tech-logos:nth-child(2) {
+        grid-row: 2;
+    }
+
+
 
 }
 

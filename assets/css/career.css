@@ -8,6 +8,7 @@
     align-items: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    width: 100vw;
 }
 
 .contact-form {
@@ -21,9 +22,13 @@
 
 #contactForm label, input, select, textarea {
   padding: 0.5rem; 
-  width: 25rem;
-  height: 3rem;
+  width: 17rem;
+  height: 1%;
 }
+
+/* animation stuff */
+
+/*
 
 .form-input:hover {
   animation: fadeInAnimation ease 3s;
@@ -38,3 +43,5 @@
       opacity: 1;
   }
 }
+
+*/

@@ -5,6 +5,11 @@
     align-items: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    width: 100vw;
+}
+
+.about-us .section-title p {
+    padding-top: 1rem;
 }
 
 .about-us-picture {
@@ -20,7 +25,7 @@
 .carousel-inner {
     position: relative;
     overflow: hidden;
-    width: 43rem;
+    width: 23rem;
 }
 
 .carousel-open:checked + .carousel-item {
@@ -47,7 +52,7 @@
     color: #fff;
     cursor: pointer;
     display: none;
-    font-size: 40px;
+    font-size: 30px;
     height: 40px;
     line-height: 35px;
     position: absolute;
@@ -62,11 +67,11 @@
 }
 
 .carousel-control.prev {
-    left: 2%;
+    left: 1px;
 }
 
 .carousel-control.next {
-    right: 2%;
+    right: 1px;
 }
 
 .carousel-control:hover {

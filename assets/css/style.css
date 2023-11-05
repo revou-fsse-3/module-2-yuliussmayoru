@@ -15,19 +15,21 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: white;
-}
-
-h3 {
-    font-size: 50px;
-}
-
-p {
-    font-size: 20px;
-}
+@font-face {
+    font-family: 'Font-montserrat';
+    src: 
+        url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
+  }
 
 .container {
     display: grid;
     grid-template-rows: auto;
+  }
+
+  h3 {
+    font-family: 'Font-montserrat';
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: solid black;
   }

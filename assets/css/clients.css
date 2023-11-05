@@ -6,6 +6,11 @@
     justify-content: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    width: 100vw;
+}
+
+.our-clients .section-title p {
+    padding-top: 1.8rem;
 }
 
 .client-picture-lists {
@@ -16,10 +21,11 @@
 }
 
 .client-pic {
-    width: 45rem;
+    width: 23rem;
     padding: 1.5rem;
 }
 
-.white-text {
-    color: #fff;
+.client-picture-lists p {
+    width: 15rem;
+    text-align: center;
 }
