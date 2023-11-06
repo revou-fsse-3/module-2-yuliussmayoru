@@ -41,11 +41,11 @@
 .hero-banner {
     background-image:
     linear-gradient(to top, rgb(255, 255, 255), rgba(14, 42, 71, 0.73)),
-    url("assets/img/code-1839406_1920.webp");
+    url("/assets/img/code-1839406_1920.webp");
     background-size: contain;
 }
 
 footer{
-    background-image: url("assets/img/footer-background.webp");
+    background-image: url("/assets/img/footer-background.webp");
     background-size: cover;
 }
