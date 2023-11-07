@@ -41,8 +41,19 @@
 .hero-banner {
     background-image:
     linear-gradient(to top, rgb(255, 255, 255), rgba(14, 42, 71, 0.73)),
-    url("/assets/img/code-1839406_1920.webp")
+    url("/assets/img/code-1839406_1920.webp");
     background-size: contain;
+}
+
+.tech-stack {
+  background-image: url("/assets/img/backgroundtech.webp");
+  background-size: fill;
+  background-position: top;
+
+}
+
+#techStack.section-title, #techStack.tech-logos {
+  position: relative;
 }
 
 footer{
