@@ -1,12 +1,12 @@
 /* TECH STACK SECTION */
 
-.tech-stack {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    width: 100vw;
+    .tech-stack {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        width: 100vw;
     }
 
     .section-title {
@@ -26,4 +26,5 @@
     }
     .lang-logo {
         width: 6rem;
+
     }

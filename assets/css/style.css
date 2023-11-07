@@ -45,15 +45,14 @@
     background-size: contain;
 }
 
-.tech-stack {
-  background-image: url("/assets/img/backgroundtech.webp");
-  background-size: fill;
-  background-position: top;
-
-}
-
 #techStack.section-title, #techStack.tech-logos {
   position: relative;
+}
+
+.tech-stack {
+    background-image: url("/assets/img/backgroundtech.webp");
+    background-size: fill;
+    background-position: top;
 }
 
 footer{

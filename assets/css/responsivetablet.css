@@ -151,6 +151,19 @@
         grid-column: 5;
     }
 
+    .our-clients {
+        width: 100vw;
+    }
+
+    .client-pic {
+        width: 50rem;
+    }
+
+    .client-picture-lists p {
+        font-size: 1.2rem;
+        width: 25;
+    }
+
 }
 
 
