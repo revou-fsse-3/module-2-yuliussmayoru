@@ -27,3 +27,16 @@
     align-items: center;
 }
 
+.switch-theme {
+    padding-top: 2rem;
+}
+
+.dark-mode-toggle {
+    border-radius: 1000%;
+    position: relative;
+}
+
+.dark-mode-toggle img {
+    width: 3rem;
+    cursor: pointer;
+}
