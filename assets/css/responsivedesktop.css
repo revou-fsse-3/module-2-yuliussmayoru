@@ -45,26 +45,25 @@
     .about-us-content {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        gap: 5rem;
+        gap: 1rem;
     }
 
     .about-us-picture {
         display: flex;
-        justify-content: center;
+        padding-right: 5rem;
     }
 
     .about-us-icon {
-        width: 30rem;
+        width: 20rem;
     }
     .carousel {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 40rem;
+        height: 23rem;
     }
     .carousel-inner {
         position: relative;
         overflow: hidden;
-        width: 50rem;
+        width: 40rem;
     }
 
     /* tech stack */
@@ -93,6 +92,10 @@
 
     /* our clients */
 
+    .out-clients {
+        width: 100vw;
+    }
+
     .client-picture-lists p {
         display: none;
     }
@@ -103,11 +106,16 @@
     }
 
     .client-pic {
-        width: 40rem;
+        width: 29rem;
         padding: 1.5rem;
     }
 
+    .career-opportunity {
+        width: 100vw;
+    }
+
     footer {
-        background-size: contain;
+        width: 100vw;
+        background-position: fill;
     }
 }
