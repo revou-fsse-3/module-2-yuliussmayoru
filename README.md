@@ -13,7 +13,7 @@ Click Here to access the project :
 #### Page Lighthouse score requirements
 
 below is the image of this page Lighthouse score tested at netlify
-![Lighthouse](assets/img/)
+![Lighthouse](assets/img/lighthouse-latest.png)
 
 #### Deployment Step
 
