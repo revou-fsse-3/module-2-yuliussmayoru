@@ -10,6 +10,11 @@ Click Here to access the project :
 #### Project Description
 > created to complete revou module 2 deployment assignment, the page functioned as landing page of the company, as a preview about what has been achieved by the company, to help customer reach out the company to help them to create a tech product, and also to inform people with talent about job apportunity to join the team.
 
+#### Page Lighthouse score requirements
+
+below is the image of this page Lighthouse score tested at netlify
+![Lighthouse](assets/img/)
+
 #### Deployment Step
 
 1. First Login to Netlify for easier setup, use login with Github
