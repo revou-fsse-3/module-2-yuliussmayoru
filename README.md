@@ -5,19 +5,43 @@
 ### Dimy Landing page
 
 Click Here to access the project : 
-- Netlify : [Revou Module 1 Checkpoint 2 Dimy Landing Page](https://yuliussmayorurevou.netlify.app/)
-- Github Pages : [Revou Module 1 Checkpoint 2 Dimy Landing Page](https://revou-fsse-3.github.io/module-1-yuliussmayoru/)
+- Netlify : [Rovou Module 2 Deployment Assignments](https://yuliussmayoru.online/)
 
 #### Project Description
-> created to complete revou module 1 checkpoint 2 assignment, the page functioned as landing page of the company, as a preview about what has been achieved by the company, to help customer reach out the company to help them to create a tech product, and also to inform people with talent about job apportunity to join the team.
+> created to complete revou module 2 deployment assignment, the page functioned as landing page of the company, as a preview about what has been achieved by the company, to help customer reach out the company to help them to create a tech product, and also to inform people with talent about job apportunity to join the team.
 
+#### Deployment Step
+
+1. First Login to Netlify for easier setup, use login with Github
+![Login Netlify](assets/img/login-netlify.png)
+2. After Succesfully Logged in, Click Add New Site
+![Add New Site](assets/img/2-addnewsite.png)
+3. Then Click Deploy With Github
+![deploy with github](assets/img/3-deploywithgithub.png)
+4. Then Select Repository Target like this step below
+![select repo](assets/img/4-selectrepo.png)
+![select repo2](assets/img/5-selectrepo.png)
+5. After that click Deploy
+![click deploy](assets/img/6-deploy.png)
+7. Click Setup Custom Domain or go to domain management
+![domain management](assets/img/7-setupdomain.png)
+8. At Domain Management click add domain
+![add domain](assets/img/8-domainmanagement.png)
+9. input domain name and clikc add domain
+![write domain name](assets/img/9-adddomain.png)
+10. When you at this page click the Awaiting External DNS
+copy all listed dns, then copy to domain provider in my case, it's niaga hoster
+11. Login to Niaga Hoster then paste the DNS to Domain Configuration at Niaga Hoster and save like image below
+![last setup](assets/img/12-setupdnsniagahoster.png)
+
+Then your deployment setup with setup domain has done. it would took some times for the domain applied to your web, so you may take a rest and wait.
 
 #### Author's Profile
 > assignment for week 0 Introduction "My Profile" 
 ##### My Bio
 Hi, I'm Yulius, Software Quality Assurance
 
-<img src="assets/mypic.jpg" alt="yulius" style="width:300px;"/>
+<img src="assets/img/mypic.webp" alt="yulius" style="width:300px;"/>
 
 i'm Software Quality Assurance, with more than 3 years experience who also a founder of Tech Startup in Bandung,
  
@@ -35,9 +59,9 @@ below is 3 example of project i have been working in recent years.
 
 |No | Project / Product               | Image                         | Tech stack        |
 |---|---------------------------------|-------------------------------|-------------------|
-|1. |Qoligo & Kokarmina Point Of Sales| ![pos](assets/pos.png)        | Nuxt.js & Nest.Js |
-|2. |SIPPC Jaya Abadi                 | ![jayadi](assets/jayadi.png)  | Nuxt.js & Laravel |
-|3. |Pertiwi by PERTAMINA             | ![pertiwi](assets/pertiwi.png)| ASP .Net          | 
+|1. |Qoligo & Kokarmina Point Of Sales| ![pos](assets/img/pos.webp)        | Nuxt.js & Nest.Js |
+|2. |SIPPC Jaya Abadi                 | ![jayadi](assets/img/jayadi.webp)  | Nuxt.js & Laravel |
+|3. |Pertiwi by PERTAMINA             | ![pertiwi](assets/img/pertiwi.webp)| ASP .Net          | 
 
 and many more.
 
